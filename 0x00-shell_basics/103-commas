@@ -1,2 +1,2 @@
 #!/bin/bash
-la -xamp
+ls -p -m -A --group-directories-first | sed 's/^\.\., //' | LC_COLLATE=C sort -k1.1n -k1.1 | sed 's/$/\n/
