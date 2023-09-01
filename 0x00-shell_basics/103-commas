@@ -1,2 +1,2 @@
 #!/bin/bash
-ls --format=comma -ld */ -a --group-directories-first -x \n
+ls -amvp
